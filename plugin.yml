@@ -1,0 +1,36 @@
+name: MCBasic
+main: mcbasic.Main
+version: 1.3.2
+author: Marbanz
+api-version: 1.16
+description: Basic plugin for Minecraft
+commands:
+    fly:
+     description: allow a player to fly
+     aliases: []
+     permission: mcbasic.fly
+     
+    gamemode:
+     description: set the gamemode of a player
+     aliases: gm
+     permission: mcbasic.gamemode
+     
+    heal:
+     description: heal a player
+     aliases: []
+     permission: mcbasic.heal
+     
+    feed:
+     description: feed a player
+     aliases: []
+     permission: mcbasic.feed
+
+    playertp:
+     description: teleport to a player
+     aliases: ptp
+     permission: mcbasic.playertp
+
+    tphere:
+     description: teleport a player to you
+     aliases: tph
+     permission: mcbasic.tphere
